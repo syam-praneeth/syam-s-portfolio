@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barriecito&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barriecito&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barriecito&family=Italianno&family=Tangerine:wght@400;700&display=swap');
 .landing-wrapper {
   display: flex;
   flex-direction: column;
@@ -10,8 +11,11 @@
   padding: 0 4em;
 }
 .Syam{
-  font-family: "Barriecito", serif;
-  font-size: 12rem;
+  /* font-family: "Italianno", serif; */
+  font-family: "Tangerine", serif;
+  font-weight: 700;
+  font-size: 14rem;
+  /* font-size: 12rem; */
   margin: 60px; 
 }
 
