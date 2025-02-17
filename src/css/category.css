@@ -266,6 +266,17 @@ div:has(> .props-table) {
   background-color: #111;
 }
 
+.demo-container {
+  width: 100%;
+  margin-top: 1em;
+  background: transparent;  /* Makes the background transparent */
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .demo-extra-info {
   margin: 1em 0;
   display: flex;

@@ -17,7 +17,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-import RefreshButton from "../../components/common/RefreshButton";
 import CodeExample from "../../components/code/CodeExample";
 import Dependencies from "../../components/code/Dependencies";
 import useForceRerender from "../../hooks/useForceRerender";
@@ -36,29 +35,14 @@ const BlurTextDemo = () => {
 
   
   return (
-    // <TabbedLayout>
-      <PreviewTab>
-        <Box
-          position="relative"
-          className="demo-container"
-          minH={400}
-          overflow="hidden"
-        >
-          <RefreshButton onClick={forceRerender} />
           <BlurText
             key={key}
-            text="Isn't this so cool?!"
+            text="You will be re - directed soon!"
             animateBy={animateBy}
             direction={direction}
             delay={delay}
-            className="blur-text-demo"
-          />
-        </Box>
-
-        
-
-                </PreviewTab>
-    // </TabbedLayout>
+            className="blur-text-demo"></BlurText>
+         
   );
 };
 
