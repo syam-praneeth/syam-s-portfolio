@@ -23,7 +23,7 @@ const SplitTextDemo = () => {
           minH={400}
           overflow="hidden"
         >
-          <RefreshButton onClick={forceRerender} />
+          {/* <RefreshButton onClick={forceRerender} /> */}
           <SplitText
             key={key}
             text="Hello!"
