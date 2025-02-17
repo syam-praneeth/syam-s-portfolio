@@ -5,9 +5,11 @@ import CountUp from "../../content/TextAnimations/CountUp/CountUp";
 import Squares from "../../content/Backgrounds/Squares/Squares";
 import Particles from "../../content/Backgrounds/Particles/Particles";
 import DecryptedTextDemo from "../../demo/TextAnimations/DecryptedTextDemo";
+import RotatingTextDemo from "../../demo/TextAnimations/RotatingTextDemo";
 const LandingStats = () => (
   <Box className="stats-content" color="#00d8ff" mb={12}>
     <FadeContent blur>
+    <div className="Stat"><DecryptedTextDemo /></div>
       <Flex w="100%" justifyContent="center">
         <FadeContent blur>
           <Text
@@ -108,7 +110,7 @@ const LandingStats = () => (
           />
         </Flex>
       </Flex>
-      <div className="Stat"><DecryptedTextDemo /></div>
+      <div className="rot-text"><RotatingTextDemo /></div>
     </FadeContent>
   </Box>
 );

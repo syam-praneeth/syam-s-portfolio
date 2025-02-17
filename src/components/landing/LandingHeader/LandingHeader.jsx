@@ -65,12 +65,12 @@ const LandingHeader = () => {
               to={pathname !== '/showcase' ? '/showcase' : '/text-animations/split-text'}
             >
               {pathname !== '/showcase' && <><img src={showcase} alt='gallery' /> Projects</>}
-              {pathname === '/showcase' && <><img src={profile} alt='gallery' /> Profile</>}
+              {/* {pathname === '/showcase' && <><img src={profile} alt='gallery' /> Profile</>} */}
             </Text>
           </FadeContent>
           
 
-          {pathname !== '/showcase' && (
+          {/* {pathname !== '/showcase' && (
             <FadeContent blur>
               <Text
                 as={Link}
@@ -81,7 +81,7 @@ const LandingHeader = () => {
                 <img src={profile} alt='a page with some writing on it' /> Profile
               </Text>
             </FadeContent>
-          )}
+          )} */}
         </Flex>
       </nav>
     </header>

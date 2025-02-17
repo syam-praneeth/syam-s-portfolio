@@ -98,6 +98,7 @@ export const CATEGORIES = [
   {
     name: 'Backgrounds',
     subcategories: [
+      // 'Get in Touch',
       // 'Aurora',
       // 'Shape Blur',
       // 'Hyperspeed',

@@ -10,30 +10,6 @@ import { iridescenceMock } from "../../constants/code/Backgrounds/iridescenceCod
 
 const LandingDemo = () => (
   <Flex w="100%" justifyContent="center" alignItems="center" direction="column" mb={12} mt={12}>
-    <FadeContent blur>
-      <Flex w="100%" justifyContent="center" position="relative" top="1.6em">
-        <img width={300} src={variants} alt="Variants" />
-      </Flex>
-      <Text
-        textAlign="center"
-        maxW="20ch"
-        mb={4}
-        lineHeight={1}
-        color="#fff"
-        fontSize="clamp(2rem, 6vw, 3rem)"
-      >
-      </Text>
-      <Text
-        textAlign="center"
-        maxW={{ base: "25ch", sm: "100%" }}
-        lineHeight={1}
-        mb={6}
-        fontSize="clamp(1rem, 2vw, 1.2rem)"
-        letterSpacing="-0.5px"
-      >
-      </Text>
-    </FadeContent>
-
     <FadeContent className="fade-full" blur>
       <Flex maxH={300} maxW={1080} overflow="hidden" className="demo-landing">
         <TabbedLayout className="landing-tabs">
@@ -58,7 +34,7 @@ const LandingDemo = () => (
                 color="#514"
                 userSelect="none"
               >
-                {"<Technologies />"}
+                {"<Skills & Technologies />"}
               </Text>
             </Box>
           </PreviewTab>
