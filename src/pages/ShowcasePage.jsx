@@ -18,13 +18,13 @@ const ShowcasePage = () => {
       using: '<ML-Model, Flask, Mediapipe />'
     },
     {
-      name: 'Abdullah Shafiq',
-      url: 'https://resume-tex.vercel.app',
+      name: 'Sample',
+      url: 'Sample link',
       using: '<Squares />'
     },
     {
-      name: 'Oscar Hernandez',
-      url: 'https://oscarhernandez.vercel.app',
+      name: 'Sample',
+      url: 'Sample',
       using: '<LetterGlitch />'
     }
   ];
