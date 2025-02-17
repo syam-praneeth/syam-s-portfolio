@@ -25,9 +25,22 @@ export default function App() {
   useEffect(() => {
     forceChakraDarkTheme();
 
+    // Set favicon dynamically
+    const setFavicon = (iconPath) => {
+      let link = document.querySelector("link[rel~='icon']");
+      if (!link) {
+        link = document.createElement("link");
+        link.rel = "icon";
+        document.head.appendChild(link);
+      }
+      link.href = iconPath;
+    };
+
+    setFavicon("/favicon.png"); // Change path if needed
+
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Show splash for 3 seconds
+    }, 2000); // Show splash for 2 seconds
 
     return () => clearTimeout(timer); // Cleanup timer
   }, []);
